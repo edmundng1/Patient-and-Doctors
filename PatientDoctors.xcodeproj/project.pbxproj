@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7711CA6C1CDBC21400E787A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7711CA6B1CDBC21400E787A9 /* main.m */; };
+		7711CA741CDBC2B300E787A9 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7711CA731CDBC2B300E787A9 /* Patient.m */; };
+		7711CA7D1CDBCD5400E787A9 /* HistoryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7711CA7C1CDBCD5400E787A9 /* HistoryEntry.m */; };
+		7711CA801CDBCFE100E787A9 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7711CA7F1CDBCFE100E787A9 /* Doctor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7711CA661CDBC21400E787A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7711CA681CDBC21400E787A9 /* PatientDoctors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PatientDoctors; sourceTree = BUILT_PRODUCTS_DIR; };
+		7711CA6B1CDBC21400E787A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7711CA721CDBC2B300E787A9 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		7711CA731CDBC2B300E787A9 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		7711CA7B1CDBCD5400E787A9 /* HistoryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryEntry.h; sourceTree = "<group>"; };
+		7711CA7C1CDBCD5400E787A9 /* HistoryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryEntry.m; sourceTree = "<group>"; };
+		7711CA7E1CDBCFE100E787A9 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		7711CA7F1CDBCFE100E787A9 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7711CA651CDBC21400E787A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7711CA5F1CDBC21400E787A9 = {
+			isa = PBXGroup;
+			children = (
+				7711CA6A1CDBC21400E787A9 /* PatientDoctors */,
+			);
+			sourceTree = "<group>";
+		};
+		7711CA691CDBC21400E787A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7711CA681CDBC21400E787A9 /* PatientDoctors */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7711CA6A1CDBC21400E787A9 /* PatientDoctors */ = {
+			isa = PBXGroup;
+			children = (
+				7711CA6B1CDBC21400E787A9 /* main.m */,
+				7711CA7E1CDBCFE100E787A9 /* Doctor.h */,
+				7711CA7F1CDBCFE100E787A9 /* Doctor.m */,
+				7711CA721CDBC2B300E787A9 /* Patient.h */,
+				7711CA731CDBC2B300E787A9 /* Patient.m */,
+				7711CA7B1CDBCD5400E787A9 /* HistoryEntry.h */,
+				7711CA7C1CDBCD5400E787A9 /* HistoryEntry.m */,
+				7711CA691CDBC21400E787A9 /* Products */,
+			);
+			path = PatientDoctors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7711CA671CDBC21400E787A9 /* PatientDoctors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7711CA6F1CDBC21400E787A9 /* Build configuration list for PBXNativeTarget "PatientDoctors" */;
+			buildPhases = (
+				7711CA641CDBC21400E787A9 /* Sources */,
+				7711CA651CDBC21400E787A9 /* Frameworks */,
+				7711CA661CDBC21400E787A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatientDoctors;
+			productName = PatientDoctors;
+			productReference = 7711CA681CDBC21400E787A9 /* PatientDoctors */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7711CA601CDBC21400E787A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Enoch Ng";
+				TargetAttributes = {
+					7711CA671CDBC21400E787A9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 7711CA631CDBC21400E787A9 /* Build configuration list for PBXProject "PatientDoctors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7711CA5F1CDBC21400E787A9;
+			productRefGroup = 7711CA691CDBC21400E787A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7711CA671CDBC21400E787A9 /* PatientDoctors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7711CA641CDBC21400E787A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7711CA6C1CDBC21400E787A9 /* main.m in Sources */,
+				7711CA7D1CDBCD5400E787A9 /* HistoryEntry.m in Sources */,
+				7711CA801CDBCFE100E787A9 /* Doctor.m in Sources */,
+				7711CA741CDBC2B300E787A9 /* Patient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7711CA6D1CDBC21400E787A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7711CA6E1CDBC21400E787A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7711CA701CDBC21400E787A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7711CA711CDBC21400E787A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7711CA631CDBC21400E787A9 /* Build configuration list for PBXProject "PatientDoctors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7711CA6D1CDBC21400E787A9 /* Debug */,
+				7711CA6E1CDBC21400E787A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7711CA6F1CDBC21400E787A9 /* Build configuration list for PBXNativeTarget "PatientDoctors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7711CA701CDBC21400E787A9 /* Debug */,
+				7711CA711CDBC21400E787A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7711CA601CDBC21400E787A9 /* Project object */;
+}
